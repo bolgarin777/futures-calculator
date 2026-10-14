@@ -1,0 +1,8 @@
+services:
+  calc-frontend:
+    build: .
+    container_name: trade-calc-nginx
+    ports:
+      - "80:80"
+    restart: always
+
